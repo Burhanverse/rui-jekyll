@@ -5,5 +5,5 @@ baseurl: "/jekyll"
 username: RemodedUi
 
 collectios:
-  - _devices
+  - _links
   - _changelogs
