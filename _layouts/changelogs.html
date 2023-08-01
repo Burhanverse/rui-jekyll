@@ -1,0 +1,13 @@
+<ul>
+    {% for changelog in site.data.changelogs %}
+      <li>
+        <h2>{{ changelog.name }}</h2>
+        <ul>
+          {% for item in changelog.items %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
+  
