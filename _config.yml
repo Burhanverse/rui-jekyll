@@ -4,3 +4,6 @@ baseurl: "/jekyll"
 # username: This will displayed on the landing page as your name.
 username: RemodedUi
 
+collectios:
+  - _devices
+  - _changelogs
